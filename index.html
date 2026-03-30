@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syntaxwear - Tênis e Sneakers Online</title>
-    <meta name="description" content="Compre os melhores tênis e sneakers online na Syntaxwear. Encontre os últimos lançamentos, estilos exclusivos e ofertas imperdíveis. Transforme seu estilo com nossos calçados de alta qualidade.">
+    <meta name="description"
+        content="Compre os melhores tênis e sneakers online na Syntaxwear. Encontre os últimos lançamentos, estilos exclusivos e ofertas imperdíveis. Transforme seu estilo com nossos calçados de alta qualidade.">
     <!-- Ligações para os arquivos CSS -->
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -31,39 +32,49 @@
         <div class="header-container">
             <!-- Logo e navegação -->
         </div>
-        <nav class="nav-center" aria-label="Categorias Principais">
 
-            <!-- Menu de navegação -->
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Outlet</a></li>
-            </ul>
-        </nav>
-        <nav class="nav-right" aria-label="Acesso rápido">
-            <ul>
-                <li><a href="#">Nossas lojas</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li>
-                    <a href="#" aria-label="Minha conta">
-                        <img src="./images/images/icons/user.svg" alt="Minha conta">
+        <input type="checkbox" class="menu-toggle" name="" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./images/images/icons/hamburguer.svg" alt="menu-mobile">
+        </label>
 
-                    </a>
-                </li>
-                <li>
-                    <a href="#" aria-label="Ajuda">
-                        <img src="./images/images/icons/help.svg" alt="Ajuda">
+        <nav class="nav-container">
 
-                    </a>
-                </li>
-                <li>
-                    <a href="#" aria-label="Carrinho">
-                        <img src="./images/images/icons/bag.svg" alt="Carrinho">
+            <nav class="nav-center" aria-label="Categorias Principais">
 
-                    </a>
-                </li>
-            </ul>
+                <!-- Menu de navegação -->
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="nav-right" aria-label="Acesso rápido">
+                <ul>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li>
+                        <a href="#" aria-label="Minha conta">
+                            <img src="./images/images/icons/user.svg" alt="Minha conta">
 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Ajuda">
+                            <img src="./images/images/icons/help.svg" alt="Ajuda">
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Carrinho">
+                            <img src="./images/images/icons/bag.svg" alt="Carrinho">
+
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
         </nav>
     </header>
 
@@ -86,24 +97,24 @@
 
         <section class="categories-section">
             <!-- Seção de categorias de tênis -->
-            
-                <div class="category-card casual">
-                    <span class="overlay"></span>
-                    <button class="category-action" type="button">Casual</button>
-                </div>
-                <div class="category-card esporte">
-                    <span class="overlay"></span>
-                    <button class="category-action" type="button">Esporte</button>
-                </div>
-                <div class="category-card moderno">
-                    <span class="overlay"></span>
-                    <button class="category-action" type="button">Moderno</button>
-                </div>
-                <div class="category-card futurista">
-                    <span class="overlay"></span>
-                    <button class="category-action" type="button">Futurista</button>
-                </div>
-           
+
+            <div class="category-card casual">
+                <span class="overlay"></span>
+                <button class="category-action" type="button">Casual</button>
+            </div>
+            <div class="category-card esporte">
+                <span class="overlay"></span>
+                <button class="category-action" type="button">Esporte</button>
+            </div>
+            <div class="category-card moderno">
+                <span class="overlay"></span>
+                <button class="category-action" type="button">Moderno</button>
+            </div>
+            <div class="category-card futurista">
+                <span class="overlay"></span>
+                <button class="category-action" type="button">Futurista</button>
+            </div>
+
         </section>
 
         <section class="categories-section">
@@ -113,87 +124,91 @@
 
         <section class="grid-section">
             <!-- Newsletter -->
-             <div class="card highlight">
-              <div class="top1-content">
-                <h3 class="card-title">Krypton One</h3>
-                <p class="card-subtitle">Estilo Urbano com altitude</p>
-                <div class="cta-group">
-                    <a href="#" class="btn btn-outline">Feminino</a>
-                    <a href="#" class="btn btn-filled">Masculino</a>
+            <div class="card highlight">
+                <div class="top1-content">
+                    <h3 class="card-title">Krypton One</h3>
+                    <p class="card-subtitle">Estilo Urbano com altitude</p>
+                    <div class="cta-group">
+                        <a href="#" class="btn btn-outline">Feminino</a>
+                        <a href="#" class="btn btn-filled">Masculino</a>
+                    </div>
+
                 </div>
-                
-              </div>  
-             </div>
-             <div class="card sneaker-purple"></div>
-             <div class="card model"></div>
-             <div class="card sneaker-color"></div>
-             <div class="card sneaker-white"></div>
-             <div class="card sneaker-silver"></div>
+            </div>
+            <div class="card sneaker-purple"></div>
+            <div class="card model"></div>
+            <div class="card sneaker-color"></div>
+            <div class="card sneaker-white"></div>
+            <div class="card sneaker-silver"></div>
         </section>
     </main>
 
     <footer class="site-footer">
-      <div class="footer-top">
-        <div class="footer-newsletter">
-          <h2>Inscreva-se em nosso e-mail</h2>
-          <form action="#" method="post" class="newsletter-form">
-            <label for="newsletter-email" class="sr-only">Email</label>
-            <input id="newsletter-email" name="email" type="email" placeholder="email@email.com" required>
-            <button type="submit">Enviar</button>
-          </form>
+        <div class="footer-top">
+            <div class="footer-newsletter">
+                <h2>Inscreva-se em nosso e-mail</h2>
+                <form action="#" method="post" class="newsletter-form">
+                    <label for="newsletter-email" class="sr-only">Email</label>
+                    <input id="newsletter-email" name="email" type="email" placeholder="email@email.com" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <div class="footer-social">
+                <p>Redes sociais</p>
+                <ul class="social-list">
+                    <li><a href="https://www.instagram.com/jorge.vinicius._/" target="_blank"
+                            aria-label="Instagram"><img src="images/images/icons/instagram.svg" alt="Instagram"></a>
+                    </li>
+                    <li><a href="https://wa.me/558994026771" target="_blank" aria-label="WhatsApp"><img
+                                src="images/images/icons/whatsapp.svg" alt="WhatsApp"></a></li>
+                    <li><a href="#" aria-label="TikTok"><img src="images/images/icons/tiktok.svg" alt="TikTok"></a></li>
+                    <li><a href="#" aria-label="Facebook"><img src="images/images/icons/facebook.svg"
+                                alt="Facebook"></a></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="footer-social">
-          <p>Redes sociais</p>
-          <ul class="social-list">
-            <li><a href="https://www.instagram.com/jorge.vinicius._/"  target="_blank" aria-label="Instagram"><img src="images/images/icons/instagram.svg" alt="Instagram"></a></li>
-            <li><a href="https://wa.me/558994026771" target="_blank" aria-label="WhatsApp"><img src="images/images/icons/whatsapp.svg" alt="WhatsApp"></a></li>
-            <li><a href="#" aria-label="TikTok"><img src="images/images/icons/tiktok.svg" alt="TikTok"></a></li>
-            <li><a href="#" aria-label="Facebook"><img src="images/images/icons/facebook.svg" alt="Facebook"></a></li>
-          </ul>
+        <div class="footer-links">
+            <ul class="footer-column">
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Esporte</a></li>
+                <li><a href="#">Moderno</a></li>
+                <li><a href="#">Futurista</a></li>
+            </ul>
+
+            <ul class="footer-column">
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Esporte</a></li>
+                <li><a href="#">Moderno</a></li>
+                <li><a href="#">Futurista</a></li>
+            </ul>
+
+            <ul class="footer-column">
+                <li><a href="#">Outlet</a></li>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+            </ul>
+
+            <ul class="footer-column">
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Loja física</a></li>
+                <li><a href="#">Loja online</a></li>
+            </ul>
+
+            <ul class="footer-column">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Missão</a></li>
+            </ul>
         </div>
-      </div>
 
-      <div class="footer-links">
-        <ul class="footer-column">
-          <li><a href="#">Masculino</a></li>
-          <li><a href="#">Casual</a></li>
-          <li><a href="#">Esporte</a></li>
-          <li><a href="#">Moderno</a></li>
-          <li><a href="#">Futurista</a></li>
-        </ul>
-
-        <ul class="footer-column">
-          <li><a href="#">Feminino</a></li>
-          <li><a href="#">Casual</a></li>
-          <li><a href="#">Esporte</a></li>
-          <li><a href="#">Moderno</a></li>
-          <li><a href="#">Futurista</a></li>
-        </ul>
-
-        <ul class="footer-column">
-          <li><a href="#">Outlet</a></li>
-          <li><a href="#">Masculino</a></li>
-          <li><a href="#">Feminino</a></li>
-        </ul>
-
-        <ul class="footer-column">
-          <li><a href="#">Nossas lojas</a></li>
-          <li><a href="#">Loja física</a></li>
-          <li><a href="#">Loja online</a></li>
-        </ul>
-
-        <ul class="footer-column">
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Quem somos</a></li>
-          <li><a href="#">Missão</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-bottom">
-        <p>Copyright. All Rights Reserved</p>
-      </div>
+        <div class="footer-bottom">
+            <p>Copyright. All Rights Reserved</p>
+        </div>
     </footer>
-  </body>
+</body>
 
 </html>
